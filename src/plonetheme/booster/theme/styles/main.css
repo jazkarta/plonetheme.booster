@@ -14388,7 +14388,6 @@ h6 {
   float: left;
   width: 100%;
   position: relative;
-  position: absolute;
   z-index: 99;
   top: 0;
 }
@@ -15358,7 +15357,6 @@ a > img.fh5co-align-center {
    Base styling
    ========================================================================== */
 body {
-  padding-top: 63px;
   color: #444;
   font-weight: 400;
 }
@@ -15440,7 +15438,7 @@ a:active {
   background-color: #f39c12;
 }
 /* ==========================================================================
-   NAVABR
+   NAVBAR
    ========================================================================== */
 nav.navbar span {
   font-size: 13px;
