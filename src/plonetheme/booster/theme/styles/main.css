@@ -16160,37 +16160,37 @@ body.section-front-page .plone-breadcrumb {
 @media (min-width: 828px) {
   .plone-toolbar-left-default .mosaic-tile.mosaic-tile-full-width {
     margin-left: calc(-100vw / 2 + 780px / 2);
-    margin-right: calc(-100vw / 2 + 720px / 2);
+    margin-right: calc(-100vw / 2 + 780px / 2);
   }
 }
 @media (min-width: 1052px) {
   .plone-toolbar-left-default .mosaic-tile.mosaic-tile-full-width {
     margin-left: calc(-100vw / 2 + 1000px / 2);
-    margin-right: calc(-100vw / 2 + 940px / 2);
+    margin-right: calc(-100vw / 2 + 1000px / 2);
   }
 }
 @media (min-width: 1260px) {
   .plone-toolbar-left-default .mosaic-tile.mosaic-tile-full-width {
     margin-left: calc(-100vw / 2 + 1200px / 2);
-    margin-right: calc(-100vw / 2 + 1140px / 2);
+    margin-right: calc(-100vw / 2 + 1200px / 2);
   }
 }
 @media (min-width: 888px) {
   .plone-toolbar-left-expanded .mosaic-tile.mosaic-tile-full-width {
     margin-left: calc(-100vw / 2 + 900px / 2);
-    margin-right: calc(-100vw / 2 + 780px / 2);
+    margin-right: calc(-100vw / 2 + 900px / 2);
   }
 }
 @media (min-width: 1112px) {
   .plone-toolbar-left-expanded .mosaic-tile.mosaic-tile-full-width {
     margin-left: calc(-100vw / 2 + 1060px / 2);
-    margin-right: calc(-100vw / 2 + 1000px / 2);
+    margin-right: calc(-100vw / 2 + 1060px / 2);
   }
 }
 @media (min-width: 1320px) {
   .plone-toolbar-left-expanded .mosaic-tile.mosaic-tile-full-width {
     margin-left: calc(-100vw / 2 + 1260px / 2);
-    margin-right: calc(-100vw / 2 + 1200px / 2);
+    margin-right: calc(-100vw / 2 + 1260px / 2);
   }
 }
 .plone-modal-open > .mosaic-modal-wrapper {

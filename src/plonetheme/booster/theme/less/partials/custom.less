@@ -51,30 +51,30 @@
   }
   .plone-toolbar-left-default & {
     @media(min-width: (@plone-screen-sm-min + @plone-left-toolbar)) {
-        margin-left: calc(~"-100vw / 2 +" (@plone-container-sm  - @plone-grid-gutter-width+ @plone-left-toolbar) ~"/ 2");
-        margin-right: calc(~"-100vw / 2 +" (@plone-container-sm - @plone-grid-gutter-width) ~"/ 2");
+        margin-left: calc(~"-100vw / 2 +" (@plone-container-sm  - @plone-grid-gutter-width + @plone-left-toolbar) ~"/ 2");
+        margin-right: calc(~"-100vw / 2 +" (@plone-container-sm - @plone-grid-gutter-width + @plone-left-toolbar) ~"/ 2");
     }
     @media(min-width: (@plone-screen-md-min + @plone-left-toolbar)) {
         margin-left: calc(~"-100vw / 2 +" (@plone-container-md - @plone-grid-gutter-width + @plone-left-toolbar) ~"/ 2");
-        margin-right: calc(~"-100vw / 2 +" (@plone-container-md - @plone-grid-gutter-width) ~"/ 2");
+        margin-right: calc(~"-100vw / 2 +" (@plone-container-md - @plone-grid-gutter-width + @plone-left-toolbar) ~"/ 2");
     }
     @media(min-width: (@plone-screen-lg-min + @plone-left-toolbar)) {
         margin-left: calc(~"-100vw / 2 +" (@plone-container-lg - @plone-grid-gutter-width + @plone-left-toolbar) ~"/ 2");
-        margin-right: calc(~"-100vw / 2 +" (@plone-container-lg - @plone-grid-gutter-width) ~"/ 2");
+        margin-right: calc(~"-100vw / 2 +" (@plone-container-lg - @plone-grid-gutter-width + @plone-left-toolbar) ~"/ 2");
     }
   }
   .plone-toolbar-left-expanded & {
     @media(min-width: (@plone-screen-sm-min + @plone-left-toolbar-expanded)) {
         margin-left: calc(~"-100vw / 2 +" (@plone-container-sm + @plone-grid-gutter-width + @plone-left-toolbar-expanded) ~"/ 2");
-        margin-right: calc(~"-100vw / 2 +" (@plone-container-sm + @plone-grid-gutter-width) ~"/ 2");
+        margin-right: calc(~"-100vw / 2 +" (@plone-container-sm + @plone-grid-gutter-width + @plone-left-toolbar-expanded) ~"/ 2");
     }
     @media(min-width: (@plone-screen-md-min + @plone-left-toolbar-expanded)) {
         margin-left: calc(~"-100vw / 2 +" (@plone-container-md - @plone-grid-gutter-width + @plone-left-toolbar-expanded) ~"/ 2");
-        margin-right: calc(~"-100vw / 2 +" (@plone-container-md + @plone-grid-gutter-width) ~"/ 2");
+        margin-right: calc(~"-100vw / 2 +" (@plone-container-md - @plone-grid-gutter-width + @plone-left-toolbar-expanded) ~"/ 2");
     }
     @media(min-width: (@plone-screen-lg-min + @plone-left-toolbar-expanded)) {
         margin-left: calc(~"-100vw / 2 +" (@plone-container-lg - @plone-grid-gutter-width + @plone-left-toolbar-expanded) ~"/ 2");
-        margin-right: calc(~"-100vw / 2 +" (@plone-container-lg + @plone-grid-gutter-width) ~"/ 2");
+        margin-right: calc(~"-100vw / 2 +" (@plone-container-lg - @plone-grid-gutter-width + @plone-left-toolbar-expanded) ~"/ 2");
     }
   }
 }
