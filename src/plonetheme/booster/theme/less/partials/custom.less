@@ -12,6 +12,7 @@
       &.dark {
         h3, h4 {
           color: @black;
+          text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
         }
       }
       padding: 0;
@@ -22,7 +23,7 @@
   }
   .carousel-indicators li {
     border: 2px solid @black;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+    background-color: #fff;
   }
   span.banner-img {
     display: block;
@@ -87,45 +88,32 @@
 }
 
 .mobile-mosaic-thirds {
-  width: 50%;
-  float: left;
-  &.mosaic-position-two-thirds {
-    width: 100%;
-    clear: both;
-    float: none;
-  }
-}
-
-.mobile-mosaic-thirds-logged-in {
+  width: 100%;
+  float: none;
+  clear: both;
+  margin-left: 0;
   &.mosaic-position-third {
-    margin-left: -50%;
+    margin-left: 0;
   }
   &.mosaic-position-two-thirds {
-    margin-left: -100%;
+    margin-left: 0;
   }
 }
 
 @media(max-width: (@plone-screen-sm-min + @plone-left-toolbar-expanded - 1)) {
   .plone-toolbar-left-expanded.mosaic-grid:not(.mosaic-enabled) .mosaic-width-third {
     .mobile-mosaic-thirds;
-    .mobile-mosaic-thirds-logged-in;
   }
 }
 
 @media(max-width: (@plone-screen-sm-min + @plone-left-toolbar - 1)) {
   .plone-toolbar-left-default.mosaic-grid:not(.mosaic-enabled) .mosaic-width-third {
     .mobile-mosaic-thirds;
-    .mobile-mosaic-thirds-logged-in;
   }
 }
 
 @media(max-width: (@plone-screen-sm-min - 1)) {
   .mosaic-grid:not(.mosaic-enabled) .mosaic-width-third {
-    .template-layout& {
-      .mobile-mosaic-thirds;
-    }
-    .userrole-authenticated.template-layout& {
-      .mobile-mosaic-thirds-logged-in;
-    }
+    .mobile-mosaic-thirds;
   }
 }
