@@ -47,6 +47,15 @@
       handler=".setuphandlers.uninstall">
   </genericsetup:importStep>
 
+  <genericsetup:upgradeDepends
+      source="1000"
+      destination="1001"
+      title="Add new tile format"
+      description=""
+      profile="plonetheme.booster:default"
+      import_steps="plone.app.registry"
+      />
+
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="plonetheme.booster-hiddenprofiles" />

@@ -76,26 +76,8 @@
     />
 
   <!-- static banner for zip -->
-  <replace css:theme="#site-banner" if-not="$is_zip">
-    <div id="site-banner-img">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="fh5co-owl-text-wrap item">
-                    <div class="fh5co-owl-text site-heading text-center to-animate">
-                        <h1 class="fh5co-lead">
-                          <xsl:value-of select="$site_title"/>
-                        </h1>
-                        <h2 class="fh5co-sub-lead" >
-                          <xsl:value-of select="$slogan"/>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </replace>
+  <drop css:theme="#site-banner" if-not="$is_zip" />
+  <drop css:theme="#carousel-example-generic" if-not="$is_zip" />
 
   <!-- front-page wrap -->
   <drop

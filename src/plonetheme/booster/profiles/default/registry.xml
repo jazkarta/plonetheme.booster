@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<registry>
+  <record name="plone.app.mosaic.default_available_actions">
+    <value purge="False">
+      <element>tile-full-width</element>
+    </value>
+  </record>
+  <records interface="plone.app.mosaic.interfaces.IFormat"
+           prefix="plone.app.mosaic.formats.tile_full_width">
+    <value key="name">tile-full-width</value>
+    <value key="category">tile</value>
+    <value key="label">Full Width</value>
+    <value key="action">tile-toggle-class</value>
+    <value key="icon">false</value>
+    <value key="favorite">false</value>
+    <value key="weight">110</value>
+  </records>
+</registry>

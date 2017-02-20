@@ -57,10 +57,10 @@
 	});
 
 	$('.item.active').find(".to-animate").addClass('fadeInUp animated');
-	$('#carousel-example-generic').on('slid.bs.carousel', function () {
+	$('.carousel').on('slid.bs.carousel', function () {
 		$('.item.active').find(".to-animate").addClass('fadeInUp animated');
 	});
-	$('#carousel-example-generic').on('slide.bs.carousel', function () {
+	$('.carousel').on('slide.bs.carousel', function () {
 		$('.item.active').find(".to-animate").removeClass('fadeInUp animated');
 	});
 	$( document ).ready(function() {
